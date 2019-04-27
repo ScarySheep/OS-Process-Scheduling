@@ -18,3 +18,7 @@
 
 各組員的貢獻
 ---
+* Main&MakeFile 許定為
+* Process 吳綺緯 廖晨皓
+* Scheduling 楊晨弘 許
+
