@@ -300,6 +300,7 @@ int Pause(int pid){
 結論是C的qsort會有unstable的情況，才導致這樣的情況發生
 
 以下是四種Policy跑範例測資的結果
+
 **FIFO**
 ```C
 P1	0	500
