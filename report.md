@@ -9,7 +9,7 @@
 在directory輸入以下指令
 * **make** - Compile all the codes
 * **make clean** - Delete all .o files
-* **make run** - sudo ./project will be executed
+* **make run** - sudo ./project1 will be executed
 
 在kernel資料夾裡，有兩個c檔**print_time.c**與**get_nstime.c** 需要放進linux/kernel資料夾
 
