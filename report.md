@@ -339,7 +339,7 @@ P4	200	4000
 ```
 ![](https://i.imgur.com/5kRk2Ne.png)
 
-因為RR、PSJF等Policy starting time並不明確，我們這邊都使用ready time作為輸出時間，可以看到表格所繪出的時間軸皆正確，但是看到如FIFO的範例，每個process執行的時間還是有些許的誤差，原因可能是因為電腦cpu的差異，有些cpu會在特定情況進行加速(如intel的turbo boost)，因此我們使用的，透過跑for迴圈來計時的方式就會產生些許誤差。
+因為RR、PSJF等Policy starting time並不明確，我們這邊都使用ready time作為輸出時間，可以看到表格所繪出的時間軸皆正確，但是看到如FIFO的範例，每個process執行的時間還是有些許的誤差，原因可能是因為電腦cpu的差異，有些cpu會在特定情況進行加速(如intel的turbo boost)，因此我們使用的，透過跑for迴圈來計時的方式就會產生誤差。
 
 各組員的貢獻
 ---
